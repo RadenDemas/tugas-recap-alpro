@@ -38,7 +38,7 @@ int main() {
 
     do {
         printf("Masukan tebakanmu: ");
-        scanf("%d", &tebakan);
+        scanf(" %d", &tebakan);
         percobaan++;
 
         // Memanggil fungsi periksaTebakan berdasarkan tebakan yang kamu masukan
